@@ -16,6 +16,7 @@
   max-height: 756px;
   border:1px solid #f00;
   display: flex;
+  position: relative;
 /* выше установили ограничения для секции */
 }
 
@@ -26,7 +27,6 @@
    background-size: contain;
    margin: 30px 0 0 64px;
    position: absolute;
-   z-index: 2;
    border:1px solid #f00;
 }
 
@@ -38,6 +38,7 @@
   font-size: 102px;
   font-weight: bold;
   align-self: center;
+  z-index: 2;
 }
 
 .subtitle {
@@ -49,20 +50,28 @@
 
 }
 
-.main-illustration {
+.header_main-illustration {
   border:1px solid #f00;
   width: 765px;
   height: 608px;
   position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента
+/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента*/
 .header__square-pic {
   height: 568px;
   width: 568px;
-  color: white;
+  background-color: #2f80ed;
   border:1px solid #f00;
-}*/
+  position: absolute;
+  margin-right: 0;
+  margin-top: 64px;
+  z-index: 0;
+
+}
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
