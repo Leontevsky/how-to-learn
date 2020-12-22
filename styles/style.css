@@ -10,6 +10,8 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+/* Старт "Опять двойка" */
+
 .header {
   height: 100vh;
   min-height: 600px;
@@ -30,7 +32,7 @@
    border:1px solid #f00;
 }
 
-.title {
+.header__title {
   width: 730px;
   border:1px solid #f00;
   margin-left: 64px;
@@ -41,7 +43,7 @@
   z-index: 2;
 }
 
-.subtitle {
+.header__subtitle {
   width:388px;
   border:1px solid #f00;
   align-self: flex-end;
@@ -50,7 +52,7 @@
 
 }
 
-.header_main-illustration {
+.header__main-illustration {
   border:1px solid #f00;
   width: 765px;
   height: 608px;
@@ -67,11 +69,59 @@
   background-color: #2f80ed;
   border:1px solid #f00;
   position: absolute;
-  right: 0;
-  top: 64px;
+  margin-right: 0;
+  margin-top: 64px;
   z-index: 0;
-
 }
+
+/* Финиш "Опять двойка" */
+
+/* Старт "Главные проблемы в обучении" */
+
+.description {
+  padding-top: 100px;
+  border:1px solid #f00;
+}
+
+.two-columns {
+  border:1px solid #f00;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin:0 auto;
+}
+
+.two-columns__brief {
+  line-height: 1.2;
+  margin: 0;
+  font-size: 18px;
+  font-weight: normal;
+  color: #2f80ed;
+  width: 175px;
+  border:1px solid #f00;
+}
+
+.two-columns__main-text {
+  margin: 0;
+  border:1px solid #f00;
+  width: 80%;
+  min-width: 784px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.two-columns__span-index {
+  font-weight: bold;
+}
+
+.two-columns__paragraph {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+/* Финиш "Главные проблемы в обучении" */
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
