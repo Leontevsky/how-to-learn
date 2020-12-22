@@ -30,6 +30,7 @@
    margin: 30px 0 0 64px;
    position: absolute;
    border:1px solid #f00;
+
 }
 
 .header__title {
@@ -72,6 +73,9 @@
   margin-right: 0;
   margin-top: 64px;
   z-index: 0;
+}
+.header_link {
+  color: #2f80ed;
 }
 
 /* Финиш "Опять двойка" */
@@ -122,6 +126,7 @@
 }
 
 /* Финиш "Главные проблемы в обучении" */
+/* Старт "Цифры и факты" */
 
 .digits {
   border:1px solid #f00;
@@ -156,8 +161,6 @@
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: flex-start;
-
-
 }
 
 .digits__table_cell {
@@ -166,8 +169,6 @@
   flex-direction: column;
   margin: 60px 0 0;
   width: 250px;
-
-
 }
 
 .digits__table_heading { /*Верхний текст Высота строки 1.15, шрифта 24px, начертание шрифта полужирное*/
@@ -182,18 +183,73 @@
   font-weight: normal;
 }
 
-li {
-  list-style-type: none;
+
+/* Финиш "Цифры и факты" */
+/* Старт "Метод Феймана" */
+
+.feynman {
+  border:1px solid #f00;
+  min-height: 790px;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  background-color: #f2f2f2;
+  position: relative;
 }
 
+.feynman__title { /*Высота строки 1.15, размер шрифта 120px, начертание шрифта полужирное*/
+  border:1px solid #f00;
+  width: 648px;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+  margin: 0 auto;
+  text-align: center;
+  z-index: 1;
+}
 
+.feynman__subtitle {
+  border:1px solid #f00;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  display: flex;
+  align-self: center;
+  margin-top: 70px;
+  z-index: 1;
+}
 
+.feynman__link {
+  position: absolute;
+  border:1px solid #f00;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  right: 48px;
+  top:50%;
+  color: #2f80ed;
+}
 
-/* и элемента с модификатором вида ключ-значение */
+.feynman__pic {
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+  position: absolute;
+
+}
+
+/* и элемента с модификатором вида ключ-значение
 .table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}*/
+
+
+li {
+  list-style-type: none;
 }
 
+a {
+  text-decoration: none;
