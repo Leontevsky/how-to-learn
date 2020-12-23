@@ -287,7 +287,6 @@
   width: 90%;
   height: 250px;
   display: flex;
-  width: 90%;
   justify-content: space-between;
   flex-direction: row;
   margin: 60px auto 40px;
