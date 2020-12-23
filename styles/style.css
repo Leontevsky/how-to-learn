@@ -22,7 +22,7 @@
 /* выше установили ограничения для секции */
 }
 
-.logo_place_header {
+.logo {
    width:183px;
    height:32px;
    background-image: url(../images/logo_place_header.svg);
@@ -30,8 +30,9 @@
    margin: 30px 0 0 64px;
    position: absolute;
    border:1px solid #f00;
-
 }
+
+
 
 .header__title {
   width: 730px;
@@ -296,6 +297,92 @@
   top: 0;
 }
 
+.footer {
+ border:1px solid #f00;
+ background-color: #1f1f1f;
+ min-height: 350px;
+ padding-top: 60px;
+}
+
+.footer__columns { /*Прямоугольник основной*/
+  border:1px solid #f00;
+  width: 90%;
+  height: 250px;
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 60px auto 40px;
+}
+
+.logo_place_footer {
+  align-self: flex-start;
+  top: 30px;
+  left: 64px;
+  border:1px solid #f00;
+}
+
+.footer__columns_content_copyright { /*Прямоугольник в прямоугольнике справа*/
+  border:1px solid #f00;
+  flex-basis: 711px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer__author {
+  border: 1px solid #f00;
+  color: white;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 18px 0 18px 0;
+  align-self: flex-start;
+}
+
+.footer__columns_content_info {
+  margin-left: auto;
+  margin-top: 0;
+}
+
+.footer__column-heading {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bolder;
+  margin: 0 auto;
+  color: white;
+}
+
+.footer__column-links {
+  padding-inline-start: 0;
+  color: white;
+  margin: 20px auto 16px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.footer__columns_content_social {
+margin-left: auto;
+}
+
+.footer__column-link {
+  padding-inline-start: 0;
+  color: white;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.footer__social-icon {
+  margin-right: 10px;
+  height: 16px;
+  width: 16px;
+}
 
 li {
   list-style-type: none;
