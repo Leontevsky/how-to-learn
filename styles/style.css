@@ -73,8 +73,12 @@
   z-index: 0;
 }
 
-.header__link:hover { /* Можно лучше. Эффект при наведении с помощью :hover. В брифе ссылки и фигуры должны быть синего цвета. Эффект наведения я выбрал на свой вкус - желтый.*/
-  color: #ede02f;
+.header__link {
+  text-decoration: none;
+}
+
+.header__link:hover {
+  color: #2f80ed;
 }
 
 /* Финиш "Опять двойка" */
@@ -128,7 +132,6 @@
 /* Старт "Цифры и факты" */
 
 .digits {
-
   padding: 100px 0;
 }
 
@@ -157,6 +160,7 @@
   padding-inline-start: 0;
   justify-content: space-between;
   flex-wrap: wrap;
+  list-style-type: none;
 }
 
 .table__cell {
@@ -170,7 +174,6 @@
   font-size: 24px;
   font-weight: bold;
   margin: 0;
-
 }
 
 .table__text {
@@ -220,10 +223,11 @@
   font-weight: normal;
   right: 48px;
   top:50%;
+  text-decoration: none;
 }
 
-.feynman__link:hover { /* Можно лучше. Эффект при наведении с помощью :hover.*/
-  color: #ede02f
+.feynman__link:hover {
+  color: #2f80ed
 }
 
 .feynman__pic {
@@ -244,12 +248,11 @@
   flex-direction: column;
   position: relative;
   overflow: hidden;
-  z-index: 1; /*Можно лучше. z-index*/
+  z-index: 1;
 }
 
 .section-title_theme_dark{
   color: white;
-
   font-weight: bold;
 }
 
@@ -294,6 +297,7 @@
  background-color: #1f1f1f;
  min-height: 350px;
  padding-top: 60px;
+ padding-bottom: 40px;
  box-sizing: border-box;
 }
 
@@ -302,7 +306,7 @@
   min-height: 250px;
   display: flex;
   justify-content: space-around;
-  margin: 60px auto 40px;
+  margin: 0 auto;
 }
 
 .footer__column_content_copyright {
@@ -331,7 +335,6 @@
 }
 
 .footer__column_content_info {
-  margin-left: auto;
   margin-top: 0;
   justify-content: space-between;
 }
@@ -344,8 +347,8 @@
   color: white;
 }
 
-.footer__column-heading:hover {  /*Можно лучше. Эффект при наведении с помощью :hover.*/
-  color: #ede02f;
+.footer__column-heading:hover {
+  color: #2f80ed;
 }
 
 .footer__column-links {
@@ -354,14 +357,14 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
+  list-style-type: none;
 }
 
-.footer__column-links:hover {  /*Можно лучше. Эффект при наведении с помощью :hover.*/
-  color: #ede02f;
+.footer__column-links:hover {
+  color: #2f80ed;
 }
 
 .footer__column_content_social {
-margin-left: auto;
 margin-top: 0;
 justify-content: space-between;
 }
@@ -373,24 +376,17 @@ justify-content: space-between;
   font-size: 18px;
   font-weight: normal;
   padding: 0;
+  text-decoration: none;
 }
 
-.footer__column-link:hover {  /*Можно лучше. Эффект при наведении с помощью :hover.*/
-  color: #ede02f;
+.footer__column-link:hover {
+  color:#2f80ed;
 }
 
 .footer__social-icon {
   margin-right: 10px;
   height: 16px;
   width: 16px;
-}
-
-li {
-  list-style-type: none;
-}
-
-a {
-  text-decoration: none;
 }
 
 /* Финиш footer */
