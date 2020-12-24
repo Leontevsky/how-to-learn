@@ -65,8 +65,8 @@
   z-index: 0;
 }
 
-.header_link {
-  color: #2f80ed;
+.header_link:hover { /* Можно лучше. Эффект при наведении с помощью :hover. В брифе ссылки и фигуры должны быть синего цвета. Эффект наведения я выбрал на свой вкус - желтый.*/
+  color: #ede02f;
 }
 
 /* Финиш "Опять двойка" */
@@ -201,13 +201,17 @@
 }
 
 .feynman__link {
+  color: #2f80ed;
   position: absolute;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
   right: 48px;
   top:50%;
-  color: #2f80ed;
+}
+
+.feynman__link:hover { /* Можно лучше. Эффект при наведении с помощью :hover.*/
+  color: #ede02f
 }
 
 .feynman__pic {
@@ -228,6 +232,7 @@
   flex-direction: column;
   position: relative;
   overflow: hidden;
+  z-index: 1; /*Можно лучше. z-index*/
 }
 
 .section-title_theme_dark{
@@ -244,9 +249,9 @@
   font-weight: normal;
 }
 
-.table_theme_dark{
+/*.table_theme_dark{
   z-index: 1;
-}
+}*/
 
 .table__cell_theme_dark {
   width: 200px;
@@ -272,6 +277,7 @@
   background-repeat:no-repeat;
   right: -210px;
   top: 0;
+  z-index: -1;
 }
 
 /* Финиш "kaufman" */
@@ -327,12 +333,20 @@
   color: white;
 }
 
+.footer__column-heading:hover {  /*Можно лучше. Эффект при наведении с помощью :hover.*/
+  color: #ede02f;
+}
+
 .footer__column-links {
   color: white;
   margin: 20px 0px 16px 0px;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
+}
+
+.footer__column-links:hover {  /*Можно лучше. Эффект при наведении с помощью :hover.*/
+  color: #ede02f;
 }
 
 .footer__columns_content_social {
@@ -345,6 +359,10 @@ margin-left: auto;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
+}
+
+.footer__column-link:hover {  /*Можно лучше. Эффект при наведении с помощью :hover.*/
+  color: #ede02f;
 }
 
 .footer__social-icon {
