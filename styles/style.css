@@ -19,27 +19,30 @@
   display: flex;
   position: relative;
   background-color: #f2f2f2;
+  padding-left: 64px;
 }
 
 .logo_place_header {
-  width:183px;
   height:32px;
   top:30px;
   left:64px;
   position: absolute;
   background-image: url(../images/logo_place_header.svg);
   background-size: contain;
+}
 
+.logo {
+  width:183px;
 }
 
 .header__title {
   width: 730px;
-  margin-left: 64px;
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
   align-self: center;
   z-index: 2;
+  margin: 0;
 }
 
 .header__subtitle {
@@ -51,7 +54,8 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-
+  z-index: 2;
+  margin: 0;
 }
 
 .header__main-illustration {
@@ -75,10 +79,11 @@
 
 .header__link {
   text-decoration: none;
+  color: #2f80ed;
 }
 
 .header__link:hover {
-  color: #2f80ed;
+  opacity: 0.5;
 }
 
 /* Финиш "Опять двойка" */
@@ -227,7 +232,7 @@
 }
 
 .feynman__link:hover {
-  color: #2f80ed;
+  opacity: 0.5;
 }
 
 .feynman__pic {
@@ -305,7 +310,7 @@
   width: 90%;
   min-height: 250px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 0 auto;
 }
 
@@ -390,3 +395,4 @@ justify-content: space-between;
 }
 
 /* Финиш footer */
+
