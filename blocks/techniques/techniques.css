@@ -1,6 +1,10 @@
+* {
+
+  border: 1px solid red;
+}
+
 .techniques {
   margin: 100px auto;
-  border: 1px solid red;
   width: 80%;
   ;
 }

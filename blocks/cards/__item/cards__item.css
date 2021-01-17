@@ -1,6 +1,10 @@
 .cards__item {
-  border: 1px solid red;
   width: 240px;
   margin-right: 100px;
   text-align: center;
+  box-sizing: border-box;
+}
+
+.cards__item:nth-of-type(3n) {
+  margin: 0;
 }
