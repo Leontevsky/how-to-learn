@@ -6,3 +6,8 @@
   background-image: url(../../../images/logo_place_header.svg);
   background-size: contain;
 }
+
+.logo_place_header:hover {
+  opacity: 0.5;
+  transition: all 0.5s;
+}

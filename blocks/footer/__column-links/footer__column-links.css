@@ -5,8 +5,5 @@
   font-size: 18px;
   font-weight: normal;
   list-style-type: none;
-}
-
-.footer__column-links:hover {
-  color: #2f80ed;
+  margin: 20px auto 16px;
 }
